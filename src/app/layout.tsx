@@ -6,8 +6,9 @@ import TopBar from '@/components/topbar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-    title: 'Carbon Dashboard | Mateus Venâncio',
-    description: 'An app to manage my finances',
+    title: 'Carbon | Mateus Venâncio',
+    description: 'An app to help with my daily life',
+    manifest: '/manifest.json',
 };
 
 export default function RootLayout({
